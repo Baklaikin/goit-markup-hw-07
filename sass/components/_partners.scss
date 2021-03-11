@@ -1,0 +1,41 @@
+.partners {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.partners h2 {
+  margin-bottom: 50px;
+}
+
+.partners-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.partner-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--social-media-color);
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--social-media-color);
+  border-radius: 4px;
+  transition: color var(--transition), border-color var(--transition);
+  outline: none;
+}
+
+.partner-link:hover,
+.partner-link:focus {
+  color: var(--button-color);
+  border-color: var(--button-color);
+}
+
+.partner-icon {
+  fill: currentColor;
+}

@@ -1,0 +1,45 @@
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+}
+
+.f-logo {
+  display: inline-block;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  color: var(--header-bg-color);
+}
+
+.fcolor {
+  color: var(--header-bg-color);
+}
+
+.fcolor > p {
+  margin-top: 20px;
+}
+
+.footer-links {
+  display: inline-block;
+  margin-top: 9px;
+  color: var(--footer-text-color);
+}
+
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
+.pcolor {
+  color: var(--main-text-color);
+}
+
+.advantage-p {
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
