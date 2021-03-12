@@ -11,7 +11,7 @@
     color: var(--footer-text-color);
   }
 
-  & .container {
+  .container {
     display: flex;
     align-items: baseline;
   }
@@ -28,7 +28,7 @@
 .fcolor {
   color: var(--header-bg-color);
 
-  & > p {
+  p {
     margin-top: 20px;
   }
 }

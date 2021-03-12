@@ -17,30 +17,29 @@
   line-height: 31px;
 }
 
-.navigation {
+.nav {
   display: flex;
   align-items: center;
 }
 
-.nav-links {
+.nav__links {
   display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  & a:hover,
-  & a:focus {
-    color: var(--button-color);
-
-    & .current:hover,
-    & .current:focus {
-      color: var(--header-text-color);
-    }
-  }
+  // & a:hover,
+  // & a:focus {
+  //   color: var(--button-color);
+  // }
+  // &--current:hover,
+  // &--current:focus {
+  //   color: var(--header-text-color);
+  // }
 }
 
-.nav-item {
+.nav__item {
   margin-left: 50px;
 
   &:first-child {
@@ -48,12 +47,22 @@
   }
 }
 
-.link {
+.nav__link {
   display: inline-flex;
   padding-top: 32px;
   padding-bottom: 32px;
   transition: color var(--transition);
   outline: none;
+
+  &:hover,
+  &:focus {
+    color: var(--button-color);
+  }
+
+  &--current:hover,
+  &--current:focus {
+    color: var(--header-text-color);
+  }
 }
 
 .contacts-links {
@@ -67,11 +76,11 @@
 
 .contacts-item:last-child {
   margin-left: 50px;
+}
 
-  & .link:hover,
-  & .link:focus {
-    color: var(--button-color);
-  }
+.contacts-item .link:hover,
+.contacts-item .link:focus {
+  color: var(--button-color);
 }
 
 .icon {
@@ -84,7 +93,7 @@
   color: var(--main-text-color);
 }
 
-.current {
+.nav__link--current {
   color: var(--button-color);
   position: relative;
 
