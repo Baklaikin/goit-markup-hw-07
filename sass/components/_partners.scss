@@ -6,10 +6,10 @@
   text-align: center;
   padding-top: 94px;
   padding-bottom: 94px;
-}
 
-.partners h2 {
-  margin-bottom: 50px;
+  & h2 {
+    margin-bottom: 50px;
+  }
 }
 
 .partners-list {
@@ -28,12 +28,12 @@
   border-radius: 4px;
   transition: color var(--transition), border-color var(--transition);
   outline: none;
-}
 
-.partner-link:hover,
-.partner-link:focus {
-  color: var(--button-color);
-  border-color: var(--button-color);
+  &:hover,
+  &:focus {
+    color: var(--button-color);
+    border-color: var(--button-color);
+  }
 }
 
 .partner-icon {

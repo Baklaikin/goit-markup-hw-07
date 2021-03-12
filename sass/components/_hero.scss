@@ -21,12 +21,12 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
 
-.hero-header {
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  color: var(--header-bg-color);
+  &-header {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--header-bg-color);
+  }
 }
