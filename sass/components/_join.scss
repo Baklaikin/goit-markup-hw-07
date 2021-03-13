@@ -22,7 +22,7 @@
   color: var(--header-bg-color);
 }
 
-.join-link {
+.join__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,11 +40,11 @@
   }
 }
 
-.join-icon {
+.join__icon {
   display: flex;
   fill: currentColor;
 }
 
-.join-item {
+.join__item:not(:last-child) {
   margin-right: 10px;
 }

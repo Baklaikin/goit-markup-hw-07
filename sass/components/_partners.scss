@@ -12,12 +12,12 @@
   }
 }
 
-.partners-list {
+.partners__list {
   display: flex;
   justify-content: space-between;
 }
 
-.partner-link {
+.partners__link {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -36,6 +36,6 @@
   }
 }
 
-.partner-icon {
+.partner__icon {
   fill: currentColor;
 }

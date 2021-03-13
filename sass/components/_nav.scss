@@ -1,4 +1,4 @@
-.header-link {
+.header__link {
   padding-top: 24px;
   padding-bottom: 25px;
   text-decoration: none;
@@ -9,8 +9,16 @@
   letter-spacing: 0.03em;
 }
 
-.logo {
+.header__logo {
   color: var(--button-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.header__logo--white {
+  color: var(--header-bg-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -65,7 +73,7 @@
   }
 }
 
-.contacts-links {
+.contact__links {
   display: flex;
   margin-left: auto;
   font-weight: 500;
@@ -74,12 +82,12 @@
   letter-spacing: 0.02em;
 }
 
-.contacts-item:last-child {
+.contact__item:last-child {
   margin-left: 50px;
 }
 
-.contacts-item .link:hover,
-.contacts-item .link:focus {
+.contact__item .link:hover,
+.contact__item .link:focus {
   color: var(--button-color);
 }
 

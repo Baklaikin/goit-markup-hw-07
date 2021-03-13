@@ -1,12 +1,12 @@
 .form {
   margin-left: 93px;
 
-  &-icon {
+  &__icon {
     margin-left: 10px;
     fill: currentColor;
   }
 
-  &-text {
+  &__text {
     display: block;
     text-transform: uppercase;
     color: var(--header-bg-color);
@@ -17,7 +17,7 @@
   }
 }
 
-.form-input {
+.form__input {
   min-width: 358px;
   min-height: 50px;
   margin-top: 20px;
@@ -33,7 +33,7 @@
   }
 }
 
-.submit-btn {
+.submit__btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
