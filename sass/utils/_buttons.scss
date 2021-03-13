@@ -1,4 +1,4 @@
-.modal-send-btn {
+.modal__send {
   display: inline-block;
   margin-top: 30px;
   padding: 10px 55px;
@@ -82,7 +82,7 @@
   justify-content: center;
   padding-bottom: 50px;
 
-  & > .item + .item {
+  & > .btn__item + .btn__item {
     margin-left: 8px;
   }
 }
