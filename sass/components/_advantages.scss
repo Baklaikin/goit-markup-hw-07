@@ -22,7 +22,7 @@
     font-style: normal;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--main-text-color);
+    color: var(--main-color);
   }
 
   &__list {
@@ -54,12 +54,9 @@
 }
 
 .advantage__icon {
-  color: var(--header-text-color);
+  color: var(--black-color);
 }
 
-// .pcolor {
-//   color: var(--main-text-color);
-// }
 .examples {
   margin-bottom: 50px;
   font-weight: 700;
@@ -67,31 +64,31 @@
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--header-text-color);
+  color: var(--black-color);
 }
 
 .pictures {
   display: flex;
   justify-content: space-between;
-}
 
-.pictures__thumb {
-  position: relative;
-  z-index: -1;
-}
+  &__thumb {
+    position: relative;
+    z-index: -1;
+  }
 
-.pictures__overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 70px;
-  padding: 27px 0;
-  background-color: rgba(47, 48, 58, 0.8);
+  &__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    padding: 27px 0;
+    background-color: rgba(47, 48, 58, 0.8);
+  }
 
-  & > p {
+  &__text {
     text-transform: uppercase;
-    color: var(--header-bg-color);
+    color: var(--main-bg-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;

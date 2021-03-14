@@ -8,18 +8,18 @@
         <title>Web Studio</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" 
         integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous">
-        <link rel="stylesheet" href="./css/main.min.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/main.min.css">
     </head>
     <body>
         <header class="header">
-            <div class="container container--flex">
+            <div class="container header__container">
                 <nav class="nav">
                     <!-- Логотип -->
                     <a href="/" class="header__link"><span class="header__logo">Web</span>Studio</a>
                     <!-- Ссылки навигации по страницам сайта -->
-                    <ul class="nav__links">
+                    <ul class="nav__list">
                         <li class="nav__item"><a href="" class="nav__link nav__link--current">Студия</a></li>
                         <li class="nav__item"><a href="./portfolio.html" class="nav__link">Портфолио</a></li>
                         <li class="nav__item"><a href="" class="nav__link">Контакты</a></li>
@@ -52,7 +52,7 @@
                     <button class="button" data-modal-open>Заказать услугу</button>
                     <div class="backdrop is-hidden"  data-modal>
                         <div class="modal">
-                            <button class="close-button" data-modal-close>
+                            <button class="close__button" data-modal-close>
                                 <svg width="11" height="11">
                                     <use href="./images/icons.svg#icon-close-button"></use>
                                 </svg>
@@ -154,14 +154,14 @@
                         <div class="pictures__thumb">
                             <a href=""><img src="./images/keyboard.jpg" alt="набор текста на клавиатуре" width="370"></a>
                             <div class="pictures__overlay">
-                                <p>Десктопные приложения</p>
+                                <p class="pictures__text">Десктопные приложения</p>
                             </div>
                         </div></li>
                     <li>
                         <div class="pictures__thumb">
                             <a href=""><img src="./images/mobile.jpg" alt="держит мобильник в руке" width="370"></a>
                             <div class="pictures__overlay">
-                                <p>Мобильные приложения</p>
+                                <p class="pictures__text">Мобильные приложения</p>
                             </div>
                         </div>
                     </li>
@@ -169,7 +169,7 @@
                         <div class="pictures__thumb">
                             <a href=""><img src="./images/tablet.jpg" alt="держит планшет" width="370"></a>
                             <div class="pictures__overlay">
-                                <p>Дизайнерские решения</p>
+                                <p class="pictures__text">Дизайнерские решения</p>
                             </div>
                         </div>
                     </li>
@@ -286,7 +286,7 @@
         </section>
         <!-- Партнеры -->
         <section class="partners">
-            <h2>Постоянные клиенты</h2>
+            <h2 class="partners__title">Постоянные клиенты</h2>
             <div class="container">
                 <ul class="partners__list">
                     <li><a href="" class="partners__link" target="_blank" rel="noreferrer noopener" >
@@ -343,7 +343,7 @@
                 </div>
             
                 <div class="wrapper">
-                    <h2>Присоединяйтесь</h2>
+                    <h2 class="wrapper__title">Присоединяйтесь</h2>
                     <ul class="join">
                         <li class="join__item">
                             <a href="" class="join__link" target="_blank" rel="noopener noreferrer" >

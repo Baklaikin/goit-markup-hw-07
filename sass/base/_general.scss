@@ -22,14 +22,14 @@ img {
 ul {
   list-style: none;
   text-decoration: none;
-  color: var(--header-text-color);
+  color: var(--black-color);
   padding: 0;
   margin: 0;
 }
 
 a {
   text-decoration: none;
-  color: var(--header-text-color);
+  color: var(--black-color);
 }
 
 h1,
@@ -40,8 +40,6 @@ p {
   margin: 0;
   padding: 0;
 }
-
-/* Контейнер */
 
 main {
   font-weight: 400;
@@ -57,7 +55,7 @@ main {
   margin-left: auto;
 }
 
-.container--flex {
+.header__container {
   display: flex;
 }
 
